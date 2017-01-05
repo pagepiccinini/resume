@@ -1,0 +1,254 @@
+\documentclass[9pt]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage[T1]{fontenc}
+\usepackage[ttdefault=true]{AnonymousPro}
+\renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
+
+\usepackage{fontawesome}
+
+\usepackage{hyperref}
+
+%\usepackage{tcolorbox}
+%\usepackage{framed}
+%\usepackage{mdframed}
+
+\usepackage[usenames]{color}
+\definecolor{red}{RGB}{202, 32, 23}
+
+\leftmargin=0.25in
+\oddsidemargin=0.25in
+\textwidth=6.0in
+\topmargin=-0.25in
+\textheight=9.25in
+
+\raggedright
+
+\pagenumbering{arabic}
+
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+% DEFINITIONS FOR RESUME
+
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}
+}
+
+\newcommand{\lineover}{
+	\begin{changemargin}{-0.05in}{-0.05in}
+		\vspace*{-8pt}
+		\hrulefill \\
+		\vspace*{-2pt}
+	\end{changemargin}
+}
+
+\newcommand{\header}[1]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\scshape{#1}\\
+  	\lineover
+	\end{changemargin}
+}
+
+\newcommand{\contact}[4]{
+	\begin{changemargin}{-0.5in}{-0.5in}
+		\begin{center}
+			{\Large \scshape {#1}}\\ \smallskip
+			{#2}\\ \smallskip 
+			{#3}\\ \smallskip
+			{#4}\smallskip
+		\end{center}
+	\end{changemargin}
+}
+
+\newenvironment{body} {
+	\vspace*{-16pt}
+	\begin{changemargin}{-0.25in}{-0.5in}
+  }	
+	{\end{changemargin}
+}	
+
+\newcommand{\school}[4]{
+	\textbf{#1} \hfill \emph{#2\\}
+	#3\\ 
+	#4\\
+}
+
+% END RESUME DEFINITIONS
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Name
+\contact{Page Piccinini}{\href{mailto:page.piccinini@gmail.com}{\color{red}page.piccinini@gmail.com}}{\href{http://www.pagepiccinini.com}{\color{red}\faHome} \quad \href{https://github.com/pagepiccinini/}{\color{red}\faGithub} \quad \href{https://www.linkedin.com/in/pagepiccinini/}{\color{red}\faLinkedin} \quad \href{https://twitter.com/pageinini/}{\color{red}\faTwitter}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% To long, Didn't read
+\header{\color{red}TL;DR}
+
+%% add accenter to make section pop out
+
+
+\begin{body}
+	\vspace{14pt}
+	
+	\begin{tabular}{@{}l l l l l l}
+		\multicolumn{2}{@{}l}{\textbf{Data Manipulation}}						& \multicolumn{2}{l}{\textbf{Data Visualization}} 							& \multicolumn{2}{l}{\textbf{Machine Learning}} \\
+		\hspace{0.5cm}R::tidyverse & {\color{red}\faStar\faStar\faStar\faStar\faStar}	& \hspace{0.5cm}R::ggplot2 & {\color{red}\faStar\faStar\faStar\faStar\faStar}	& \hspace{0.5cm}R::lme4 & {\color{red}\faStar\faStar\faStar\faStar\faStar} \\
+		\hspace{0.5cm}SQL & {\color{red}\faStar\faStar\faStar}					& \hspace{0.5cm}R::Shiny & {\color{red}\faStar\faStar\faStar\faStar}			& \hspace{0.5cm}Signal Processing & {\color{red}\faStar\faStar\faStar\faStar} \\
+		\hspace{0.5cm}Python & {\color{red}\faStar\faStar\faStar}\hspace{1.4cm}		& \hspace{0.5cm}d3.js & {\color{red}\faStar\faStar}\hspace{1.6cm}			& \hspace{0.5cm}xgboost & {\color{red}\faStar\faStar}
+	\end{tabular}
+	
+	\medskip
+
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education
+\header{\color{red}Education}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{Ph.D. Linguistics, University of California, San Diego} \hfill 2016{} \\
+	Thesis: Cross-language Activation and the Phonetics of Code-switching\\
+ 	 \medskip
+
+	\textbf{M.A. Linguistics, Northwestern University} \hfill 2009 \\
+	Thesis: Semantic Contextual Cues and Listener Adaptation to Foreign-Accented English\\
+ 	 \medskip
+
+	\textbf{B.A. Linguistics \& B.A. International Studies, Northwestern University} \hfill 2009 \\
+	Academic Honors: Cum laude, Dean's List Quarters Fall 2005 - Fall 2007\\
+	\medskip
+
+\end{body}
+
+\smallskip
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Work Experience
+\header{\color{red}Work Experience}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{Post Doctoral Researcher} \hfill 2016 - present\\
+	\textbf{D\'epartement d'Etudes Cognitives (DEC), Ecole Normale Sup\'erieure}\\
+	\begin{itemize}
+		\item Signal processing of speech data from Huntington's Disease patients
+		\item Design experiments on language skills and social cognition
+		\item Git for version control
+		\item Markdown for writing summary reports of results
+	\end{itemize}
+	\medskip
+	
+	\textbf{Graduate Student Lab Member} \hfill 2010 - 2016\\
+	\textbf{Department of Linguistics, University of California, San Diego}\\
+	\begin{itemize}
+		\item Designing experiments on early Spanish-English bilinguals' sound systems
+		\item Conference presentations with advanced data visualization
+		\item Statistical analyses with hierarchical models
+	\end{itemize}
+	\medskip
+
+	\textbf{Research Assistant} \hfill 2006 - 2009\\
+	\textbf{Department of Linguistics, Northwestern University}\\
+	\begin{itemize}
+		\item Running participants in experiments
+		\item Phonetic analysis of sound files in Praat
+	\end{itemize}
+	\medskip
+	
+\end{body}
+
+\smallskip
+
+% \newpage{} % uncomment this line if you want to force a new page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Community Engagement
+\header{\color{red}Community Engagement}
+
+\begin{body}
+	\vspace{14pt}
+	
+	\textbf{R-Ladies Paris Co-founder}, meet-up group bringing together women who use R \hfill 2016 - present\\
+	\medskip
+	
+	\textbf{R for Publication Instructor}, in person and online introduction to R course \hfill 2016 - present\\
+	\medskip
+
+	\textbf{\#barbarplots Member}, successful Kickstarter encouraging better data visualization \hfill 2016\\
+	\medskip
+		
+\end{body}
+
+\smallskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Relevant Skills
+\header{\color{red}Skills}
+
+\begin{body}
+	\vspace{14pt}
+	
+	%\textbf{Languages:} English (native), Spanish (conversational), Italian (conversational), French (beginner)\\
+	%\medskip
+	
+	\textbf{Programming Languages:} R (expert), SQL (intermediate), Python (intermediate), JavaScript (beginner)\
+	\medskip
+
+	\textbf{Packages:} R::Shiny, R::ggplot2, R::dplyr, R::tidyverse, R::lme4, d3.js\\
+	\medskip
+	
+	\textbf{Tools:} Git, RStudio, Praat, xgboost
+	\medskip
+	
+	\textbf{Citizenships:} United States of America, Italy\\
+	\medskip
+
+\end{body}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
