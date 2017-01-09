@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.11.30)  5 JAN 2017 22:32
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2015.11.30)  9 JAN 2017 23:49
  restricted \write18 enabled.
  file:line:error style messages enabled.
 **resume-PagePiccinini.tex
@@ -345,7 +345,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.023 seconds
+luaotfload | main : fontloader loaded in 0.025 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -975,7 +975,7 @@ ute_list, 1 write nodes
 me.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmono10-reg
 ular.otf></usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmmonocaps
 10-regular.otf>
-Output written on resume-PagePiccinini.pdf (1 page, 22330 bytes).
+Output written on resume-PagePiccinini.pdf (1 page, 22540 bytes).
 
 PDF statistics: 47 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
