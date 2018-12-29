@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  29 DEC 2018 09:25
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  29 DEC 2018 09:26
  restricted system commands enabled.
  file:line:error style messages enabled.
 **resume-PagePiccinini.tex
@@ -295,7 +295,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.206 seconds)
+luaotfload | main : initialization completed in 0.214 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -856,7 +856,7 @@ Here is how much of LuaTeX's memory you used:
  1491 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 129 glue, 1 kern, 47 attribute, 48 glue_spec, 47 at
 tribute_list, 1 write nodes
-   avail lists: 2:680,3:141,4:108,5:32,6:1710,7:841,8:43,9:159,10:12
+   avail lists: 2:678,3:141,4:108,5:32,6:1710,7:841,8:43,9:159,10:12
  23628 multiletter control sequences out of 65536+600000
  49 fonts using 3747783 bytes
  56i,7n,65p,345b,333s stack positions out of 5000i,500n,10000p,200000b,100000s
