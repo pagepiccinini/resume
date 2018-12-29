@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  29 DEC 2018 09:02
+This is LuaTeX, Version 0.95.0 (TeX Live 2016)  (format=lualatex 2016.5.22)  29 DEC 2018 09:04
  restricted system commands enabled.
  file:line:error style messages enabled.
 **resume-PagePiccinini.tex
@@ -295,7 +295,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.197 seconds)
+luaotfload | main : initialization completed in 0.167 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -836,18 +836,18 @@ Overfull \hbox (3.76495pt too wide) in paragraph at lines 108--114
 (compiling luc: /usr/local/texlive/2016/texmf-var/luatex-cache/generic/fonts/otl
 /lmmono9-regular.luc)(load luc: /Users/pagepiccinini/Library/texlive/2016/texmf-
 var/luatex-cache/generic/fonts/otl/lmmono9-regular.luc)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
  [1
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
 
 (./resume-PagePiccinini.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
 Package rerunfilecheck Info: File `resume-PagePiccinini.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -856,7 +856,7 @@ Here is how much of LuaTeX's memory you used:
  1445 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 123 glue, 1 kern, 46 attribute, 48 glue_spec, 46 at
 tribute_list, 1 write nodes
-   avail lists: 2:616,3:129,4:92,5:32,6:1801,7:858,8:37,9:153,10:14
+   avail lists: 2:616,3:129,4:92,5:32,6:1801,7:846,8:37,9:153,10:14
  23628 multiletter control sequences out of 65536+600000
  49 fonts using 3747783 bytes
  56i,7n,65p,345b,333s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -866,7 +866,7 @@ f></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/fontawesome/FontAwes
 ome.otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmono10-re
 gular.otf></usr/local/texlive/2016/texmf-dist/fonts/opentype/public/lm/lmmonocap
 s10-regular.otf>
-Output written on resume-PagePiccinini.pdf (1 page, 27522 bytes).
+Output written on resume-PagePiccinini.pdf (1 page, 27536 bytes).
 
 PDF statistics: 54 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
